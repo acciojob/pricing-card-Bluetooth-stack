@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+body{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 180px;
+}
+
+.container{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+    background-color: rgba(211, 208, 208, 0.459);
+    box-shadow: 0 0 8px black;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    background-color: rgb(235, 92, 92);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
